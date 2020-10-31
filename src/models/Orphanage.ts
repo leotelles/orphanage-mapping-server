@@ -3,8 +3,6 @@ import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 @Entity('orphanages')
 export default class Orphanage {
   @PrimaryGeneratedColumn('increment')
-  
-  @Column()
   id: number;
   
   @Column()
